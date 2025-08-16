@@ -23,6 +23,7 @@ function buttonEvent() {
         item.addEventListener("click", () => {
             const data = item.dataset.value
             const lastChar = insertedNumHtml.slice(-1);
+
             const operators = ['+', '-', '*', '/'];
             // console.log(lastTwo)
             // console.log((operators.includes(lastTwo[0], lastTwo[1])))
@@ -44,15 +45,33 @@ function buttonEvent() {
                 firstAction()
                 renderInsert();
             }
-
+            // lilili()
             saveToStorage()
         })
     })
 }
 
+//          change html entities to normal actions
+
+// function lilili() {
+//         const lastChar = insertedNumHtml.slice(-1);
+//     if (lastChar === "/") {
+//         const aftermath = insertedNumHtml.slice(0, -1)
+//         console.log(aftermath)
+//     }
+// }
+
+
 //          render the html inside the .inserted
 
-function renderInsert() {
+function renderInsert(data) {
+    // let renderValues = insertedNumHtml
+    // const lastChar = insertedNumHtml.slice(-1);
+    // if (lastChar === "/") {
+    //     renderValues = insertedNumHtml.slice(0, -1)
+    //     renderValues += '÷'
+    // }
+    // let renderValues = insertedNumHtml + data
     document.querySelector(".inserted").value = insertedNumHtml
 }
 
