@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+p {
+    display: inline-block;
+    font-size: 45px;
+    border-radius: 100px;
+    padding: 22px 0;
+    background-color: rgb(67, 67, 67);
+    cursor: pointer;
+    transition: 0.15s;
+}
+
+p:hover {
+    background-color: rgb(87, 87, 87);
+}
+
+.container {
+    position: absolute;
+    display: grid;
+    grid-template-rows: 60px 60px 60px 60px 60px;
+    border: 1px solid rgb(255, 255, 255);
+    width: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 10px;
+    row-gap: 44px;
+}
+
+.answer {
+    font-size: 65px;
+    padding-left: 10px;
+
+}
+
+.total,
+.inserted {
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 60px;
+    position: absolute;
+}
+
+.total:hover,
+.inserted:hover {
+    background-color: rgba(0, 0, 0, 0);
+    cursor: default;
+
+}
+
+/*      this is for the time that we want the answer */
+/* .inserted {
+    left: 30px;
+    font-size: 20px;
+    color: rgb(166, 166, 166);
+    top: 15px;
+    border: none;
+    width: 400px;
+
+}
+
+.total {
+    top: 40px;
+    left: 30px;
+    border: none;
+    color: white;
+    width: 400px;
+
+} */
+
+.down {
+
+    top: 40px;
+    left: 30px;
+    border: none;
+    color: white;
+    width: 90%;
+    transition: ease 0.3s;
+}
+
+.up {
+    left: 30px;
+    font-size: 20px;
+    color: rgb(166, 166, 166);
+    top: 15px;
+    border: none;
+    width: 90%;
+    transition: ease 0.3s;
+
+}
+
+
+
+
+
+
+/* Chrome, Safari, Edge, Opera */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+
+
+.row {
+    display: grid;
+    /* grid-template-columns: 100px 100px 100px 100px; */
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    column-gap: 5px;
+}
+
+.fifth-row {
+    display: grid;
+    grid-template-columns: 200px 100px 100px;
+    grid-template-columns: 2fr 1fr 1fr;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    column-gap: 5px;
+}
+
+.zero {
+    text-align: left;
+    padding-left: 37px;
+}
+
+.top-button {
+    background-color: gray;
+}
+
+.action-button {
+    background-color: rgb(233, 151, 0);
+}
+
+.top-button:hover {
+    background-color: rgb(94, 94, 94);
+}
+
+.action-button:hover {
+    background-color: rgb(196, 127, 0);
+}

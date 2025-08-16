@@ -1,0 +1,31 @@
+
+! This is an alert
+? Is this function optimized?
+TODO: Refactor this loop
+* Highlighted note
+// Deprecated code
+
+
+*  cant start with action
+
+
+*  cant have 2 actions back to back
+
+
+* ac must clear the whole answer div including .total and .inserted 
+
+
+*   pressing = must give the answer in .total
+*  it must turn insertedHtml into value and calculate the total
+
+
+*   add a toggle button for bracet
+
+*  % must give the answer imedietly
+
+
+*   point must turn the last inserted number into float
+
+
+
+

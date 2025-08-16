@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="answer">
+            <input type="text" class="inserted down"></input>
+            <input type="text" readonly class="total up" id="total-js"></input>
+        </div>
+        <div class="first-row row">
+            <p class="top-button clear">AC</p>
+            <p class="top-button bracet open">( )</p>
+            <p class="top-button percent">%</p>
+            <p class="action-button divide num" data-value="/">/</p>
+        </div>
+        <div class="second-row row">
+            <p class="7 num" data-value="7">7</p>
+            <p class="8 num"data-value="8">8</p>
+            <p class="9 num"data-value="9">9</p>
+            <p class="action-button times num" data-value="*">*</p>
+        </div>
+        <div class="third-row row">
+            <p class="4 num"data-value="4">4</p>
+            <p class="5 num"data-value="5">5</p>
+            <p class="6 num"data-value="6">6</p>
+            <p class="action-button minus num" data-value="-">-</p>
+        </div>
+        <div class="forth-row row">
+            <p class="1 num"data-value="1">1</p>
+            <p class="2 num"data-value="2">2</p>
+            <p class="3 num"data-value="3">3</p>
+            <p class="action-button plus num" data-value="+">+</p>
+        </div>
+        <div class="fifth-row">
+            <p class="zero num"data-value="0">0</p>
+            <p class="point num" data-value=".">.</p>
+            <p class="action-button equal" data-value="=">=</p>
+        </div>
+    </div>
+
+
+    <script src="./main.js"></script>
+</body>
+</html>
