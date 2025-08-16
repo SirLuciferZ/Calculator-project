@@ -1,7 +1,9 @@
 # Simple-Calculator
 
 
-This is a simple calculator inspired by ' iphone's calculator ' . I used basic JS to build this. 
+This is a simple calculator inspired by 'iPhone's calculator. I used basic JS to build this.
 
-## It's my first project 🎉
+
+
+### It's my first project 🎉
 
